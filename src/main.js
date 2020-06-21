@@ -61,6 +61,18 @@ let string = `/* 你好，我叫小蒋
     rgba(255,255,255,1) 25%, 
     rgba(255,255,255,1) 100%);
 }
+/* 让它转起来 */
+#div1 {
+  animation: myfirst 5s linear infinite running;
+}
+@keyframes myfirst {
+  0% {
+     transform: translateX(-50%) rotate(360deg);
+  }
+  100% {
+     transform: translateX(-50%) rotate(0deg);
+  }
+}
 `;
 let string2 = "";
 let n = 0;

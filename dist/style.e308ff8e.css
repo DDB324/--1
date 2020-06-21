@@ -20,6 +20,7 @@
   left: 50%;
   transform: translateX(-50%);
   top: 20px;
+  transition: all 1s;
 }
 #div1::before {
   content: "";
@@ -42,9 +43,9 @@
   }
   #div1 {
     position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    right: 0;
+    /* transform: translate(-50%, -50%); */
     /* text-align: center; */
   }
 }
